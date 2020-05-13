@@ -19,5 +19,32 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin: auto;
     align-items: center;
 }
+
+.Lousha{
+    width: 80%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 25%;
+  }
+   
+  .grid__item {
+    width: 110%;
+    height: 300px;
+    margin: auto;
+    background: skyblue;
+    border: 5px solid black;
+  }
+
+video{
+    margin: auto;  
+  }
